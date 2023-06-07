@@ -1,8 +1,8 @@
 from random import randint
 
-t = ["Rock", "Paper", "Scissors"]
+A = ["Rock", "Paper", "Scissors"]
 
-computer = t [randint(0,2)]
+computer = A [randint(0,2)]
 player = False
 
 while player == False:
@@ -27,4 +27,4 @@ while player == False:
     else:
         print("This is not valid player")
     player = False
-    computer = t [randint(0,2)]
+    computer = A [randint(0,2)]
